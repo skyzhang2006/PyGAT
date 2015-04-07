@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<StepParametersList xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <ConnectionString />
+    <StepParameter ID="InlandHotelListHotelFilterCheck" StepName="InlandHotelListHotelFilterCheck">
+      <ConnectionString />
+      <CommandText />
+      <Parameters>
+        <priceFilter>600元以上,300-600元,150-300元,150元以下</priceFilter>
+        <starFilter>五星/豪华,四星/高档,三星/舒适,经济/客栈</starFilter>
+        <locationFilter>不限,建国门,鸟巢/国家会议中心,北京站地区,王府井商业区,西单商业区,国贸CBD,燕莎/农展馆</locationFilter>
+        <brandFilter>皇冠假日,喜来登,香格里拉,首旅建国,如家,7天,莫泰,更多品牌</brandFilter>
+        <equipmentFilter>大床,双床,上网</equipmentFilter>
+        <sortOrder>默认,口碑,价格,距离</sortOrder>
+        <seoMark>北京机场周边酒店,北京火车站周边酒店,北京地铁周边酒店,北京汽车站周边酒店,北京码头周边酒店,北京酒店品牌,北京周边城市酒店</seoMark>
+      </Parameters>
+    </StepParameter>
+</StepParametersList>

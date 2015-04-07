@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<TestCaseList xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <UIElementsFilePath>WebSiteInlandHotelUIElements.xml</UIElementsFilePath>
+  <StepParametersFilePath>stepparameters.xml</StepParametersFilePath>
+  <StepPackage>gateside.autotesting.iat_stepgroups.teststep</StepPackage>
+  <StepGroup>TestStep</StepGroup>
+   <TestCase Name="DemoTest" ID="testmethod" Enable="true" Owner="zhenyu.lv" priority="0" ExternalProcess="true">
+      <TestSteps>
+        <Step StepName="setpmethod1" StepParameterID="OpenInlandHotelListPage" />
+        <Step StepName="setpmethod2" StepParameterID="OpenHotelDetailPage"/>
+      </TestSteps>
+   </TestCase> 
+</TestCaseList>
